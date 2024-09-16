@@ -362,3 +362,58 @@ p {
     flex-direction: column;
   }
 }
+
+
+/*
+Превосходя все ожидания
+exceeding all expectations
+*/
+.exceed_all_exp {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  column-gap: 6rem;
+  margin: 6rem 0 2rem;
+  padding: 3rem 0;
+}
+
+.exceed_all_exp .exceed_all_exp__left {
+  height: 100%;
+  width: 60%;
+}
+
+.exceed_all_exp__left img {
+  height: 100%;
+  width: 50%;
+  margin-top: auto;
+}
+
+.exceed_all_exp .exceed_all_exp__right {
+  height: 100%;
+  width: 40%;
+  margin-top: auto;
+}
+
+.exceed_all_exp .exceed_all_exp__right .early_access_1{
+  color: #71E5FF;
+  margin-bottom: auto; 
+  
+}
+
+/* 
+.exceed_all_exp__right .right__header {
+  font-size: 34px;
+  font-family: "ManropeBold", sans-serif;
+  color: #fff;
+} */
+
+.exceed_all_exp__right .right__description {
+  color: #81afdd;
+  margin-top: auto;
+  margin-bottom: auto; 
+}
+
+.exceed_all_exp .exceed_all_exp__right .early_access_2{
+  color: #f49867;
+  border-bottom: 1px solid transparent;
+}
