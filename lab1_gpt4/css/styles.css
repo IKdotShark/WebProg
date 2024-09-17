@@ -318,9 +318,6 @@ p {
   flex: 2;
 }
 
-/* .future_here .future_here__left .left__header {
-} */
-
 .future_here .future_here__left .left__cta {
   color: #f49867;
   border-bottom: 1px solid transparent;
@@ -363,7 +360,6 @@ p {
   }
 }
 
-
 /*
 Превосходя все ожидания
 exceeding all expectations
@@ -371,18 +367,17 @@ exceeding all expectations
 
 .exceed_all_exp {
   display: flex;
-  column-gap: 6rem;
+  column-gap: 2rem;
   width: 68%;
 }
 
 .exceed_all_exp .exceed_all_exp__left {
-  /*Что-то чтобы подвинуть женщину вправо тут*/
   height: 100%;
   width: 60%;
 }
 
 .exceed_all_exp__left img {
-  /*мб и тут*/
+  margin-left: 5rem;
   width: 80%;
 }
 
@@ -390,6 +385,7 @@ exceeding all expectations
   height: 100%;
   width: 40%;
   margin-top: 14rem;
+
 }
 
 .exceed_all_exp .exceed_all_exp__right .early_access{
@@ -411,4 +407,14 @@ exceeding all expectations
 .exceed_all_exp .exceed_all_exp__right .early_access_link{
   color: #f49867;
   border-bottom: 1px solid transparent;
+}
+
+/*blog*/
+
+/* .blog{
+} */
+
+.blog .blog_header{
+  font-size: 4rem;
+  width: 64%;
 }
