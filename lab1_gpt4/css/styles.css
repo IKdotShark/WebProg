@@ -450,3 +450,61 @@ exceeding all expectations
   border-radius:  40px;
   border: black;
 }
+
+.squares{
+  display: flex;
+  column-gap: 3rem;
+  margin-top: 8rem;
+}
+
+.square1{
+  width: 412px;
+  height: 695px;
+  background-color: #042C54;
+}
+
+.square2_1{
+  width: 327px;
+  height: 323px;
+  background-color: #042C54;
+}
+
+.square2_2{
+  width: 327px;
+  height: 323px;
+  margin-top: 3rem;
+  background-color: #042C54;
+}
+
+.square3_1{
+  width: 327px;
+  height: 323px;
+  background-color: #042C54;
+}
+
+.square3_2{
+  width: 327px;
+  height: 323px;
+  margin-top: 3rem;
+  background-color: #042C54;
+}
+
+.squarepic{
+  width: 412px;
+}
+
+.squarepic2_1{
+  width: 327px;
+}
+
+.squarepic2_2{
+  width: 327px;
+}
+
+.squarepic3_1{
+  width: 327px;
+}
+
+.squarepic3_2{
+  width: 327px;
+}
