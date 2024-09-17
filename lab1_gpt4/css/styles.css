@@ -27,8 +27,8 @@
 /* Общие стили для всего приложения */
 
 body {
-  background: #031b34;
   padding: 0 2rem;
+  background: #040C18;
 }
 
 .page {
@@ -139,7 +139,7 @@ p {
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  background: #031b34;
+  background: #040C18;
 }
 
 .header .header-logo {
@@ -533,4 +533,13 @@ exceeding all expectations
 
 .content_wrapper {
   margin-left: 1rem;
+}
+
+.bottompage{
+  display: flex;
+  max-width: 1169px;
+  width: 100%;
+  height: 968px;
+  background-color: #031B34;
+  margin-top: 8rem;
 }
