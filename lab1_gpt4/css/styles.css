@@ -372,7 +372,8 @@ exceeding all expectations
 .exceed_all_exp {
   display: flex;
   column-gap: 2rem;
-  width: 68%;
+  width: 1250px;
+  /* width: 68%; */
 }
 
 .exceed_all_exp .exceed_all_exp__left {
