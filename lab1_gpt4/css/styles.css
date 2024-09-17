@@ -318,9 +318,6 @@ p {
   flex: 2;
 }
 
-/* .future_here .future_here__left .left__header {
-} */
-
 .future_here .future_here__left .left__cta {
   color: #f49867;
   border-bottom: 1px solid transparent;
@@ -377,13 +374,11 @@ exceeding all expectations
 }
 
 .exceed_all_exp .exceed_all_exp__left {
-  /*Что-то чтобы подвинуть женщину вправо тут*/
   height: 100%;
   width: 60%;
 }
 
 .exceed_all_exp__left img {
-  /*мб и тут*/
   margin-left: 10rem;
   width: 80%;
 }
@@ -415,6 +410,7 @@ exceeding all expectations
   border-bottom: 1px solid transparent;
 }
 
+/* Разноцветная кнопка зарегистрироваться */
 .req_square{
   display: flex;
   column-gap: 2rem;
@@ -452,6 +448,7 @@ exceeding all expectations
   border: black;
 }
 
+/* Блог */
 .squares{
   display: flex;
   column-gap: 3rem;
@@ -459,14 +456,16 @@ exceeding all expectations
 }
 
 .square1{
-  width: 412px;
+  width: 417px;
   height: 695px;
+  border-radius: 50px 0 0 0 ;
   background-color: #042C54;
 }
 
 .square2_1{
   width: 327px;
   height: 323px;
+  border-radius: 50px 0 0 0 ;
   background-color: #042C54;
 }
 
@@ -474,12 +473,14 @@ exceeding all expectations
   width: 327px;
   height: 323px;
   margin-top: 3rem;
+  border-radius: 50px 0 0 0 ;
   background-color: #042C54;
 }
 
 .square3_1{
   width: 327px;
   height: 323px;
+  border-radius: 50px 0 0 0 ;
   background-color: #042C54;
 }
 
@@ -487,25 +488,49 @@ exceeding all expectations
   width: 327px;
   height: 323px;
   margin-top: 3rem;
+  border-radius: 50px 0 0 0 ;
   background-color: #042C54;
 }
 
-.squarepic{
-  width: 412px;
+.square1_img {
+  width: 417px;;
 }
 
-.squarepic2_1{
+.square2_1_img {
   width: 327px;
 }
 
-.squarepic2_2{
-  width: 327px;
+.square1_date {
+  padding-top: 2rem;
+  color: white;
 }
 
-.squarepic3_1{
-  width: 327px;
+.date {
+  padding-top: 1rem;
+  color: white;
 }
 
-.squarepic3_2{
-  width: 327px;
+.square1_content {
+  font-size: 25px;
+  padding-top: 1.5rem;
+  padding-bottom: 14rem;
+}
+
+.square2_1_content {
+  font-size: 19px;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+/* Почему-то не работает */
+/* .large_content_wrapper .content_wrapper {
+  margin-left: 1rem;
+} */
+
+.large_content_wrapper {
+  margin-left: 1rem;
+}
+
+.content_wrapper {
+  margin-left: 1rem;
 }
