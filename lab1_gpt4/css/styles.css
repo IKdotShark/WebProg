@@ -27,8 +27,8 @@
 /* Общие стили для всего приложения */
 
 body {
-  padding: 0 2rem;
   background: #040C18;
+  padding: 0 2rem;
 }
 
 .page {
@@ -132,7 +132,7 @@ p {
 
 .header {
   display: flex;
-  max-width: 1169px;
+  max-width: 1440px;
   margin: 0 auto;
   width: 100%;
   padding: 2rem 0;
@@ -535,11 +535,40 @@ exceeding all expectations
   margin-left: 1rem;
 }
 
-.bottompage{
+/* Люди за последние 24 часа */
+#people_last_24h {
+  display: inline-block;
+  color: white;
+  font-size: small;
+  margin-left: 5px;
+  white-space: nowrap;
+  transform: translateY(-80%);
+}
+
+.end {
   display: flex;
-  max-width: 1169px;
-  width: 100%;
+  width: 1440px;
   height: 968px;
-  background-color: #031B34;
-  margin-top: 8rem;
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+  background: #031B34;
+}
+
+.end_header {
+  width: 821px;
+  height: 150px;
+  margin-left: 23%;
+  margin-top: 23%;
+  text-align: center;
+}
+
+.licence {
+  width: 300px;
+  height: 16px;
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 5px;
 }
