@@ -1,9 +1,7 @@
-### Лабораторная 2
-Доработать адаптив по блокам из Лабораторной 1.
+### Лабораторная 1
+Сверстать оставшиеся блоки из макета:
+https://www.figma.com/file/5AntGd1TrVTdWp39E0U38i/ChatGPT_ru?type=design&mode=design&t=s6yA7FRclRDcGraM-0
+"Превосходя все ожидания" и ниже.
 
-Для проверки корректности отображения использовать брейкпоинты:
-- 4k - 2560px
-- Laptop L - 1440px
-- Laptop - 1024px
-- Tablet - 768px
-- Mobile L - 425px
+### Шпаргалка по flex:
+https://tpverstak.ru/flex-cheatsheet/
