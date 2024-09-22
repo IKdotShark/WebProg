@@ -200,7 +200,7 @@ p {
 }
 
 .hero_section .hero_section__left .left__cta_buttons input[type="text"] {
-  min-width: 200px;
+  min-width: 150px;
   width: 70%;
   padding: 8px 32px;
   border-radius: 4px 0 0 4px;
@@ -689,6 +689,13 @@ exceeding all expectations
     margin-top: 1rem;
     margin-left: 10%;
   }
+  .future_here {
+    flex-direction: column;
+    width: 95%;
+  }
+  .future_here .future_here__right .right__container .container__content {
+    margin-top: 1rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -696,7 +703,7 @@ exceeding all expectations
     font-size: 40px;
   }
   #people_last_24h {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -731,14 +738,9 @@ exceeding all expectations
     flex-direction: column;
     flex-wrap: wrap;
   }
-    
-  .what_is_chatgpt_section .what_is_chatgpt_section__top .top__content {
-    font-size: 10px;
-  }
   
   .what_is_chatgpt_section .what_is_chatgpt_section__middle {
     flex-direction: column;
-    font-size: 14px;
     justify-content: space-between;
     align-items: start;
   }
@@ -762,17 +764,25 @@ exceeding all expectations
   }
   
   .what_is_chatgpt_section .what_is_chatgpt_section__bottom .bottom__container .container__content {
-    font-size: 10px;
     line-height: 1.8;
     padding-bottom: 2rem;
-  }
-
-  .what_is_chatgpt_section .what_is_chatgpt_section__middle a {
-    font-size: 12px;
   }
 
   .lined_header {
     background: url(../assets/img/gradient_line.svg) no-repeat 0 0 transparent;
     padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .right__container {
+    flex-direction: column;
+  }
+  .future_here .future_here__right .right__container .container__header {
+    width: 100%;
+  }
+  .future_here .future_here__right .right__container .container__content {
+    width: 100%;
+    margin-top: 0;
   }
 }
