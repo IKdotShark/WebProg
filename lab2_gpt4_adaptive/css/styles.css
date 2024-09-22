@@ -199,7 +199,7 @@ p {
 }
 
 .hero_section .hero_section__left .left__cta_buttons input[type="text"] {
-  min-width: 250px;
+  min-width: 200px;
   width: 70%;
   padding: 8px 32px;
   border-radius: 4px 0 0 4px;
@@ -353,12 +353,6 @@ p {
   color: #81afdd;
 }
 /* Медиа запросы для адаптива */
-
-@media screen and (max-width: 1024px) {
-  .header {
-    flex-direction: column;
-  }
-}
 
 
 /*
@@ -674,4 +668,33 @@ exceeding all expectations
   font-size: 10px;
   text-align: center;
   padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero_section {
+    flex-direction: column;
+  }
+  .hero_section .hero_section__left {
+    width: 100%;
+  }
+  .hero_section .hero_section__right img {
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+  #people_last_24h {
+    font-size: 12px;
+  }
 }
