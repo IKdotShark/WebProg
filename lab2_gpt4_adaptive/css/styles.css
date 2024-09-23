@@ -365,7 +365,6 @@ exceeding all expectations
   display: flex;
   column-gap: 2rem;
   width: 1250px;
-  /* width: 68%; */
 }
 
 .exceed_all_exp .exceed_all_exp__left {
@@ -523,11 +522,6 @@ exceeding all expectations
   padding-top: 1rem;
   padding-bottom: 3rem;
 }
-
-/* Почему-то не работает */
-/* .large_content_wrapper .content_wrapper {
-  margin-left: 1rem;
-} */
 
 .large_content_wrapper {
   margin-left: 1rem;
@@ -785,4 +779,27 @@ exceeding all expectations
     width: 100%;
     margin-top: 0;
   }
+}
+
+/* need better testing */
+@media screen and (max-width: 900px) {
+  .exceed_all_exp {     
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .exceed_all_exp .exceed_all_exp__left {
+    width: 100%
+    
+  }
+  
+  .exceed_all_exp__left img {
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .exceed_all_exp .exceed_all_exp__right {
+    width: 100%;
+    margin-top: 1rem;
+  }  
 }
