@@ -704,8 +704,87 @@ exceeding all expectations
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1030px) {
 
+  h1 {
+    font-size: 40px;
+  }
+  
+  .squares_header {
+    margin-top: 3rem;
+    margin-right: 0;
+    align-content: center;
+    height: 14rem;
+    width: 15rem;
+  }
+
+  .squares {
+    flex-wrap: wrap;
+    column-gap: 0;
+    margin: 1rem;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .square1 {
+    width: 17.4rem;
+    height: 23rem;
+    margin-bottom: 3rem;
+  }
+
+  .square3 {
+    margin-top: 3rem;
+  }
+
+  .square2_1 {
+    width: 17.5rem;
+  }
+
+  .square2_2 {
+    width: 17.5rem;
+  }
+
+  .square3_1 {
+    width: 17.5rem;
+  }
+
+  .square3_2 {
+    width: 17.5rem;
+  }
+
+  .square1_img {
+    width: 17.5rem;
+  }
+
+  .square2_1_img {
+    width: 17.5rem;
+  }
+
+  .square1_date {
+    padding-top: 0;
+  }
+
+  .square1_content {
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .date {
+    padding-top: 0;
+  }
+
+  .square2_1_content {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  h1 {
+    font-size: 40px;
+  }
+  
   h2 {
     font-size: 28px;
   }
@@ -768,6 +847,73 @@ exceeding all expectations
   .lined_header {
     background: url(../assets/img/gradient_line.svg) no-repeat 0 0 transparent;
     padding: 1rem 0;
+  }
+
+  .squares_header {
+    margin-top: 3rem;
+    margin-right: 0;
+    align-content: center;
+    height: 14rem;
+    width: 15rem;
+  }
+
+  .squares {
+    flex-wrap: wrap;
+    column-gap: 0;
+    margin: 1rem;
+    justify-content: center;
+  }
+
+  .square1 {
+    width:  17.5rem;
+    height: 460px;
+    margin-bottom: 3rem;
+  }
+
+  .square3 {
+    margin-top: 3rem;
+  }
+
+  .square2_1 {
+    width: 17.5rem;
+  }
+
+  .square2_2 {
+    width: 17.5rem;
+  }
+
+  .square3_1 {
+    width: 17.5rem;
+  }
+
+  .square3_2 {
+    width: 17.5rem;
+  }
+
+  .square1_img {
+    width: 17.5rem;
+  }
+
+  .square2_1_img {
+    width: 17.5rem;
+  }
+
+  .square1_date {
+    padding-top: 0;
+  }
+
+  .square1_content {
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .date {
+    padding-top: 0;
+  }
+
+  .square2_1_content {
+    font-size: 20px;
   }
 }
 
