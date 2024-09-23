@@ -780,6 +780,12 @@ exceeding all expectations
 
 @media screen and (max-width: 800px) {
 
+  .menu {
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    justify-content: center;
+  }
+
   h1 {
     font-size: 40px;
   }
