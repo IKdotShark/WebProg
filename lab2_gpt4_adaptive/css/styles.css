@@ -408,11 +408,13 @@ exceeding all expectations
 .req_square{
   display: flex;
   column-gap: 2rem;
-  width: 1170px;
-  height: 172px;
+  width: 90vw;
+  max-width: 1170px;
+  height: 11.5rem;
   background-image: linear-gradient(to right, #ad67f9,#f2966c);
   border-radius:  10px;
   margin-top: 8rem;
+  justify-content: space-between;
 }
 .req_text{
   font-family: "Manrope", sans-serif;
@@ -428,7 +430,6 @@ exceeding all expectations
 }
 .req_left{
   padding-top: 4rem;
-  padding-left: 22rem;
 }
 .req_button{
   font-family: "Manrope", sans-serif;
@@ -440,6 +441,7 @@ exceeding all expectations
   height: 60px;
   border-radius:  40px;
   border: black;
+  margin-right: 2rem;
 }
 
 /* Блог */
@@ -779,6 +781,23 @@ exceeding all expectations
     width: 100%;
     margin-top: 0;
   }
+  .req_square {
+    height: 16rem;
+    flex-direction: column;
+  }
+  .req_button {
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .req_left {
+    padding-top: 0.5rem;
+  }
+  .req_text2{
+    margin-left: -0.5rem;
+  }
+  .req_text {
+    margin-left: -0.5rem;
+  }
 }
 
 /* need better testing */
@@ -802,4 +821,10 @@ exceeding all expectations
     width: 100%;
     margin-top: 1rem;
   }  
+}
+
+@media screen and (max-width: 890px) {
+  .req_text2 {
+    font-size: 18px;
+  }
 }
