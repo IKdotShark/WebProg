@@ -543,13 +543,15 @@ exceeding all expectations
   transform: translateY(-80%);
 }
 
+/*ending*/
 .end {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 50rem;
+  width: 99vw;
+  /* width: 100%; */
+  height: 60rem;
   margin-top: 5rem;
   background: #031B34;
   padding: 0;
@@ -557,16 +559,16 @@ exceeding all expectations
 
 .end_header {
   text-align: center;
-  width: 821px;
-  margin-bottom: 2rem;
+  width: 40%;
+  margin-bottom: 3rem;
   font-size: 3rem;
   color: white;
   line-height: 1.2;
 }
 
 .early_access_btn {
-  width: 337px;
-  height: 65px;
+  width: 20%;
+  height: 8%;
   background: #031B34;
   color: white;
   font-size: 1.2rem;
@@ -577,6 +579,7 @@ exceeding all expectations
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 12rem;
 }
 
 .early_access_btn:hover {
@@ -592,79 +595,77 @@ exceeding all expectations
 .square1_end {
   display: flex;
   flex-direction: column;
-  width: 186px;
-  height: 117px;
+  width: 16rem;
+  /*width: 15%;
+  height: 30%;*/
   color: white;
 }
 
 .square1_end_img {
-  width: 118px;
-  height: 30px;
+  width: 8rem;
+  height: 3rem;
 }
 
 .square_end_text {
-  font-size: 12px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .square2_end {
-  width: 54px;
-  height: 192px;
+  width: 4rem;
+  height: 12rem;
   color: white;
 }
 
 .links {
-  width: 54px;
-  height: 19px;
-  font-size: 18px;
+  width: 4rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .company {
-  width: 54px;
-  height: 19px;
-  font-size: 18px;
+  width: 4rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .contacts {
-  width: 54px;
-  height: 19px;
-  font-size: 18px;
+  width: 4rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .links_content {
   display: block;
-  font-size: 12px;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .square3_end {
-  width: 133px;
-  height: 151px;
+  width: 10rem;
   color: white;
 }
 
 .square4_end {
-  width: 134px;
-  height: 173px;  
+  width: 12rem;
   color: white;
 }
 
 .licence {
-  width: 300px;
-  height: 16px;
+  width: 100%;
+  height: 0.8rem;
 }
 
 .copyright {
   font-size: 10px;
   text-align: center;
-  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 1024px) {
