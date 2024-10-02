@@ -830,11 +830,11 @@ exceeding all expectations
   }
   
   .squares_header {
-    margin-top: 3rem;
-    margin-right: 0;
+    margin: 1rem;
     align-content: center;
     height: 14rem;
-    width: 15rem;
+    width: 100%;
+    text-align: center;
   }
 
   .squares {
@@ -846,9 +846,10 @@ exceeding all expectations
   }
 
   .square1 {
-    width: 17.4rem;
-    height: 28rem;
+    width: 100%;
+    height: 35rem;
     margin-bottom: 3rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square3 {
@@ -856,27 +857,35 @@ exceeding all expectations
   }
 
   .square2_1 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square2_2 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square3_1 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square3_2 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square1_img {
-    width: 17.5rem;
+    width: 100%;
   }
 
   .square2_1_img {
-    width: 17.5rem;
+    width: 100%;
   }
 
   .square1_date {
@@ -899,6 +908,13 @@ exceeding all expectations
 }
 
 @media screen and (max-width: 800px) {
+/* 
+  .menu {
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    justify-content: center;
+  } */
+
   h1 {
     font-size: 40px;
   }
@@ -967,11 +983,11 @@ exceeding all expectations
   }
 
   .squares_header {
-    margin-top: 3rem;
-    margin-right: 0;
+    margin: 1rem;
     align-content: center;
+    width: 100%;
     height: 14rem;
-    width: 15rem;
+    text-align: center;
   }
 
   .squares {
@@ -981,38 +997,44 @@ exceeding all expectations
     justify-content: center;
   }
 
-  .square1 {
-    width:  17.5rem;
-    height: 460px;
-    margin-bottom: 3rem;
-  }
-
-  .square3 {
-    margin-top: 3rem;
-  }
-
   .square2_1 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square2_2 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square3_1 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square3_2 {
-    width: 17.5rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10rem 0 0 0;
   }
 
   .square1_img {
-    width: 17.5rem;
+    width: 100%;
   }
 
   .square2_1_img {
-    width: 17.5rem;
+    width: 100%;
+  }
+
+  .square1_img {
+    width: 100%;
+  }
+
+  .square2_1_img {
+    width: 100%;
   }
 
   .square1_date {
