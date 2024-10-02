@@ -1122,18 +1122,32 @@ exceeding all expectations
   .end_squares {
     column-gap: 5vw;
   }
+  .end_header {
+    width: 90vw;
+  }
+  .early_access_btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 850px) {
-  .end_header {
-    width: 90%;
+  .end{
+    align-items: flex-start;
   }
   .end_squares {
     flex-direction: column;
+    margin-left: 5vw;
+  }
+  .end_header {
+    margin-left: 5vw;
   }
   .early_access_btn {
-    margin-bottom: 1rem;
-    width: 50%;
+    margin-bottom: 2rem;
+    align-items: center;
+    width: 40%;
+    margin-left: 30vw;
   }
   .square1_end{
     margin-top: 2rem;
