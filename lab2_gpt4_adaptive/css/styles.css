@@ -654,6 +654,8 @@ exceeding all expectations
   align-items: center;
   justify-content: center;
   margin-bottom: 12rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .early_access_btn:hover {
