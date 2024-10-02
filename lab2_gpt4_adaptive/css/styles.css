@@ -815,9 +815,6 @@ exceeding all expectations
 }  
 
 @media screen and (max-width: 500px) {
-  h1 {
-    font-size: 40px;
-  }
   #people_last_24h {
     font-size: 11px;
   }
@@ -828,7 +825,7 @@ exceeding all expectations
   h1 {
     font-size: 40px;
   }
-  
+
   .squares_header {
     margin: 1rem;
     align-content: center;
@@ -842,14 +839,14 @@ exceeding all expectations
     column-gap: 0;
     margin: 1rem;
     justify-content: center;
-    width: 50%;
+    width: 80%;
   }
 
   .square1 {
     width: 100%;
-    height: 35rem;
+    height: 44rem;
     margin-bottom: 3rem;
-    border-radius: 10rem 0 0 0;
+    border-radius: 5rem 0 0 0;
   }
 
   .square3 {
@@ -858,25 +855,25 @@ exceeding all expectations
 
   .square2_1 {
     width: 100%;
-    height: 25rem;
-    border-radius: 10rem 0 0 0;
+    height: 28rem;
+    border-radius: 5rem 0 0 0;
   }
 
   .square2_2 {
     width: 100%;
-    height: 25rem;
-    border-radius: 10rem 0 0 0;
+    height: 28rem;
+    border-radius: 5rem 0 0 0;
   }
 
   .square3_1 {
     width: 100%;
-    height: 25rem;
-    border-radius: 10rem 0 0 0;
+    height: 28rem;
+    border-radius: 5rem 0 0 0;
   }
 
   .square3_2 {
     width: 100%;
-    height: 25rem;
+    height: 28rem;
     border-radius: 10rem 0 0 0;
   }
 
@@ -895,7 +892,7 @@ exceeding all expectations
   .square1_content {
     font-size: 20px;
     padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
   }
 
   .date {
@@ -999,33 +996,33 @@ exceeding all expectations
 
   .square1 {
     width: 100%;
-    height: 30rem;
+    height: 38rem;
     margin-bottom: 3rem;
-    border-radius: 10rem 0 0 0;
+    border-radius: 5rem 0 0 0;
   }
 
   .square2_1 {
     width: 100%;
-    height: 21rem;
-    border-radius: 10rem 0 0 0;
+    height: 25rem;
+    border-radius: 5rem 0 0 0;
   }
 
   .square2_2 {
     width: 100%;
-    height: 21rem;
-    border-radius: 10rem 0 0 0;
+    height: 25rem;
+    border-radius: 5rem 0 0 0;
   }
 
   .square3_1 {
     width: 100%;
-    height: 21rem;
-    border-radius: 10rem 0 0 0;
+    height: 25rem;
+    border-radius: 5rem 0 0 0;
   }
 
   .square3_2 {
     width: 100%;
-    height: 21rem;
-    border-radius: 10rem 0 0 0;
+    height: 25rem;
+    border-radius: 5rem 0 0 0;
   }
 
   .square1_img {
@@ -1214,5 +1211,26 @@ exceeding all expectations
 @media screen and (max-width: 600px) {
   .end {
     height: 70rem;
+  }
+
+  
+  .square1 {
+    height: 30rem;
+  }
+
+  .square2_1 {
+    height: 21rem;
+  }
+
+  .square2_2 {
+    height: 21rem;
+  }
+
+  .square3_1 {
+    height: 21rem;
+  }
+
+  .square3_2 {
+    height: 21rem;
   }
 }
