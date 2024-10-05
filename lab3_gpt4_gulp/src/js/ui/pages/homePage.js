@@ -3,6 +3,7 @@ import initHero from "./../components/initHero.js";
 import initBrands from "./../components/initBrands.js";
 import initWhatIsGpt from "./../components/initWhatIsGpt.js";
 import initFutureHere from "./../components/initFutureHere.js";
+import initWoman from "./../components/initWoman.js"
 import initBurger from "./../components/initBurger.js";
 
 const createHomePageTemplate = (rootNode) => {
@@ -14,6 +15,7 @@ const createHomePageTemplate = (rootNode) => {
     <section class="section brands_section"></section>
     <section class="section what_is_chatgpt_section"></section>
     <section class="section future_here"></section>
+    <section class="exceed_all_exp"></section>
   `;
 
   rootNode.insertAdjacentHTML("beforeend", template); 
@@ -43,6 +45,9 @@ const homePage = () => {
   // инициализация раздела "Будущее наступило" с мок датой
   const futureHereNode = rootNode.querySelector(".future_here");
   initFutureHere(futureHereNode);
+
+  const woman = rootNode.querySelector(".exceed_all_exp");
+  initWoman(woman);
 
   // инициализация бургера для адаптивного меню
   initBurger(headerNode);
