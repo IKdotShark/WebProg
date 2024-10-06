@@ -6,6 +6,7 @@ import initFutureHere from "./../components/initFutureHere.js";
 import initWoman from "./../components/initWoman.js"
 import initBurger from "./../components/initBurger.js";
 import initEarlyAccessBtn from "../components/initEarlyAccessBtn.js";
+import initBlog from "./../components/initBlog.js";
 
 const createHomePageTemplate = (rootNode) => {
   // формируем шаблон базовых секций для дальнейшего монтирования в них
@@ -18,6 +19,7 @@ const createHomePageTemplate = (rootNode) => {
     <section class="section future_here"></section>
     <section class="exceed_all_exp"></section>
     <section class="early_access_bruhBtn"></section>
+    <section class="blog_section"></section>
   `;
 
   rootNode.insertAdjacentHTML("beforeend", template); 
@@ -49,10 +51,13 @@ const homePage = () => {
   initFutureHere(futureHereNode);
 
   const woman = rootNode.querySelector(".exceed_all_exp");
-  initWoman(woman);
+  initWoman(woman); 
 
   const earlyAccess = rootNode.querySelector(".early_access_bruhBtn");
   initEarlyAccessBtn(earlyAccess);
+
+  const blogNode = rootNode.querySelector(".blog_section");
+  initBlog(blogNode);
 
   // инициализация бургера для адаптивного меню
   initBurger(headerNode);
