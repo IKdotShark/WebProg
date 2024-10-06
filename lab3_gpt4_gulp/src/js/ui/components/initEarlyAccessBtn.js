@@ -1,4 +1,4 @@
-import { earlyAccessBtn } from "../../mockData/earlyAccessBtn.js";
+import { earlyAccessBtn } from "../../mockData/earlyAccessBtnData.js";
 import { earlyAccessBtnTemplate } from "../templates/earlyAccessBtnTemplate.js";
 
 const initEarlyAccessBtn = (earlyAccess) => {
