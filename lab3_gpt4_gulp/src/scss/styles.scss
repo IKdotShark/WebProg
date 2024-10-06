@@ -444,7 +444,7 @@ exceeding all expectations
   display: flex;
   column-gap: 3rem;
   width: 78rem;
-  margin-right: 8rem;
+  margin-right: 10vw;
 }
 
 .exceed_all_exp .exceed_all_exp__left {
@@ -820,6 +820,10 @@ exceeding all expectations
 
 @media screen and (max-width: 1030px) {
 
+  .exceed_all_exp {     
+    margin-right: 0;
+  }
+
   h1 {
     font-size: 40px;
   }
@@ -836,6 +840,7 @@ exceeding all expectations
     flex-wrap: wrap;
     column-gap: 0;
     margin: 1rem;
+    margin-left: 10vw;
     justify-content: center;
     width: 80%;
   }
@@ -981,7 +986,6 @@ exceeding all expectations
   .squares {
     flex-wrap: wrap;
     column-gap: 0;
-    margin: 1rem;
     justify-content: center;
   }
 
@@ -1084,7 +1088,6 @@ exceeding all expectations
 @media screen and (max-width: 900px) {
   .exceed_all_exp {     
     flex-direction: column;
-    margin-right: 0;
     width: 90%;
   }
   
