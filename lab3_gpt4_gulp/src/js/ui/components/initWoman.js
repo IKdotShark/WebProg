@@ -1,4 +1,4 @@
-import { exceedAllExpData } from "../../mockData/woman.js";
+import { exceedAllExpData } from "../../mockData/womanData.js";
 import { exceedAllExpTemplate } from "../templates/womanTemplate.js";
 
 const initWoman = (woman) => {
