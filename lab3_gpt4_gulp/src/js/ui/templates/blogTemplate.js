@@ -20,33 +20,34 @@ export const createHeaderTemplate = (header) => {
   };
   
   export const createSquaresTemplate = (squares) => {
-    if (squares.length === 0) return '';
-  
     // Первая карточка (square1)
     const square1Template = createSquareTemplate(squares[0], true);
-  
-    // Генерация остальных карточек через цикл
-    let otherSquaresTemplate = '';
+    
+    let squareTemplates = '';
+    
+    // Проход по остальным элементам массива и создание шаблонов для square2 и square3
     for (let i = 1; i < squares.length; i += 2) {
-      otherSquaresTemplate += `
-        <div class="square${i + 1}">
-          <div class="square${i + 1}_1">
+      squareTemplates += `
+        <div class="square${Math.ceil(i / 2) + 1}">
+          <div class="square${Math.ceil(i / 2) + 1}_1">
             ${createSquareTemplate(squares[i])}
           </div>
-          <div class="square${i + 1}_2">
-            ${createSquareTemplate(squares[i + 1] ? squares[i + 1] : '')}
+          ${i + 1 < squares.length ? `
+          <div class="square${Math.ceil(i / 2) + 1}_2">
+            ${createSquareTemplate(squares[i + 1])}
           </div>
+          ` : ''}
         </div>
       `;
     }
-  
+    
     return `
       <section class="squares">
         ${square1Template}
-        ${otherSquaresTemplate}
+        ${squareTemplates}
       </section>
     `;
-  };
+  };  
   
   
   export const blogTemplate = (header, squares) => {
