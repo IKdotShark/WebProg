@@ -20,40 +20,34 @@ export const createHeaderTemplate = (header) => {
   };
   
   export const createSquaresTemplate = (squares) => {
-    // Первую карточку (square1)
+    if (squares.length === 0) return '';
+  
+    // Первая карточка (square1)
     const square1Template = createSquareTemplate(squares[0], true);
   
-    // Остальные карточки (square2 и square3)
-    const square2Template = `
-      <div class="square2">
-        <div class="square2_1">
-          ${createSquareTemplate(squares[1])}
+    // Генерация остальных карточек через цикл
+    let otherSquaresTemplate = '';
+    for (let i = 1; i < squares.length; i += 2) {
+      otherSquaresTemplate += `
+        <div class="square${i + 1}">
+          <div class="square${i + 1}_1">
+            ${createSquareTemplate(squares[i])}
+          </div>
+          <div class="square${i + 1}_2">
+            ${createSquareTemplate(squares[i + 1] ? squares[i + 1] : '')}
+          </div>
         </div>
-        <div class="square2_2">
-          ${createSquareTemplate(squares[2])}
-        </div>
-      </div>
-    `;
-  
-    const square3Template = `
-      <div class="square3">
-        <div class="square3_1">
-          ${createSquareTemplate(squares[3])}
-        </div>
-        <div class="square3_2">
-          ${createSquareTemplate(squares[4])}
-        </div>
-      </div>
-    `;
+      `;
+    }
   
     return `
       <section class="squares">
         ${square1Template}
-        ${square2Template}
-        ${square3Template}
+        ${otherSquaresTemplate}
       </section>
     `;
   };
+  
   
   export const blogTemplate = (header, squares) => {
     const headerTemplate = createHeaderTemplate(header);
