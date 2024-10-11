@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "lab4-react" ]
+    branches: [ "lab4-react-1" ]
   pull_request:
-    branches: [ "lab4-react" ]
+    branches: [ "lab4-react-1" ]
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd lab4_gpt4_react
-        npm i
+        npm ci  # Используем npm ci вместо npm i для установки зависимостей
 
     - name: Build the project
       run: |
@@ -37,5 +37,6 @@ jobs:
     - name: Run tests
       run: |
         cd lab4_gpt4_react
-        npm run start
+        npm test  # Запуск тестов вместо npm run start
+
 
