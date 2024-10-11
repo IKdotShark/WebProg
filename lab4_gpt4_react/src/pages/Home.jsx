@@ -5,6 +5,7 @@ import Brands from "../components/Brands";
 import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
 import Woman from "../components/Woman";
+import EarlyAccessButton from "../components/earlyAccessBtn";
 import End from "../components/End"; // Новый компонент
 import { endData } from "../mockData/endData"; // Данные для компонента End
 
@@ -28,6 +29,9 @@ const Home = () => {
       </section>
       <section className="section woman">
         <Woman />
+      </section>
+      <section className="early_access_bruhBtn">
+        <EarlyAccessButton />
       </section>
       <section className="section end_section">
         <End data={endData} />
