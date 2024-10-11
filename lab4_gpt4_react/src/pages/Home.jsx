@@ -6,9 +6,8 @@ import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
 import Woman from "../components/Woman";
 import EarlyAccessButton from "../components/earlyAccessBtn";
-import Blog from "../components/Blog";
-import End from "../components/End"; // Новый компонент
-import { endData } from "../mockData/endData"; // Данные для компонента End
+import End from "../components/End";
+import Licence from "../components/Copyright";
 
 const Home = () => {
   return (
@@ -34,11 +33,11 @@ const Home = () => {
       <section className="early_access_bruhBtn">
         <EarlyAccessButton />
       </section>
-      <section className="blog">
-        <Blog />
+      <section className="end">
+        <End />
       </section>
-      <section className="section end_section">
-        <End data={endData} />
+      <section className="licence">
+        <Licence />
       </section>
     </>
   );

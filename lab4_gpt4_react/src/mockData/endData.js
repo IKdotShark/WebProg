@@ -1,11 +1,14 @@
+import logoSvg from "../assets/img/logo.svg";
+
 export const endData = {
     header: "Хотите Шагнуть в Будущее Раньше Других?",
     button: {
       title: "Запросить ранний доступ",
       href: "#"
-    },
+    },  
+
+    logo: logoSvg,
     address: "ул. Профессора Поздеева, 13, к.Г, Пермь, Пермский край, 614013",
-    copyright: "© 2023 GPT-3. Все права защищены.",
     links: [
       { text: "Овероны", href: "#" },
       { text: "Соц.сети", href: "#" },

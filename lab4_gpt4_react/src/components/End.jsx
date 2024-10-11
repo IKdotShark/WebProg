@@ -1,8 +1,7 @@
-import React from "react";
-import {endData} from "../mockData/endData"; 
+import { endData } from '../mockData/endData';
 
 const End = () => {
-  const { header, button, copyright, links, companyLinks, contacts } = endData;
+  const { header, button, logo, links, companyLinks, contacts } = endData;
 
   const createLinksTemplate = (links) => {
     return links.map(link => (
@@ -13,14 +12,14 @@ const End = () => {
   };
 
   return (
-    <section className="end">
+    <>
       <h1 className="end_header">{header}</h1>
       <button className="early_access_btn">
-        <p className="btn_text">{button.title}</p>
+      <p className="btn_text">{button.title}</p>
       </button>
       <div className="end_squares">
         <div className="square1_end">
-          <img className="square1_end_img" src="./assets/img/logo.svg" alt="Logo" />
+          <img className="square1_end_img" src={logo} alt="Logo" />
           <p className="square_end_text">{contacts.address}</p>
           <p className="square_end_text">Все права защищены</p>
         </div>
@@ -39,10 +38,7 @@ const End = () => {
           <p className="square_end_text">{contacts.email}</p>
         </div>
       </div>
-      <section className="licence">
-        <p className="copyright">{copyright}</p>
-      </section>
-    </section>
+    </>
   );
 };
 
