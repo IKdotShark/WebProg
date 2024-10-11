@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "lab4-react-1" ]
+    branches: [ "lab4-react" ]
   pull_request:
-    branches: [ "lab4-react-1" ]
+    branches: [ "lab4-react" ]
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd lab4_gpt4_react
-        npm ci  # Используем npm ci вместо npm i для установки зависимостей
+        npm ci  # Убедитесь, что package-lock.json существует здесь
 
     - name: Build the project
       run: |
@@ -37,6 +37,4 @@ jobs:
     - name: Run tests
       run: |
         cd lab4_gpt4_react
-        npm test  # Запуск тестов вместо npm run start
-
-
+        npm test
