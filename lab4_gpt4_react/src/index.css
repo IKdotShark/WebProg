@@ -481,6 +481,46 @@ p {
   border-bottom: 1px solid transparent;
 }
 
+/* Кнопка */
+.req_square{
+  display: flex;
+  column-gap: 2rem;
+  width: 90vw;
+  max-width: 1170px;
+  height: 11.5rem;
+  background-image: linear-gradient(to right, #ad67f9,#f2966c);
+  border-radius:  10px;
+  margin-top: 8rem;
+  justify-content: space-between;
+}
+.req_text{
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+.req_text2{
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 1000;
+  padding-left: 3rem;
+}
+.req_left{
+  padding-top: 4rem;
+}
+.req_button{
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 1000;
+  background-color: black;
+  color: white;
+  width: 190px;
+  height: 60px;
+  border-radius:  40px;
+  border: black;
+  margin-right: 2rem;
+}
+
 /*ending*/
 .end {
   display: flex;
