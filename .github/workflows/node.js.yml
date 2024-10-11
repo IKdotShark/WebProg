@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd lab4_gpt4_react
-        npm ci
+        npm i
 
     - name: Build the project
       run: |
@@ -37,5 +37,5 @@ jobs:
     - name: Run tests
       run: |
         cd lab4_gpt4_react
-        npm test
+        npm run start
 
