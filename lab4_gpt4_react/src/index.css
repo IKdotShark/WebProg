@@ -437,6 +437,97 @@ p {
   color: #81afdd;
 }
 
+.exceed_all_exp {
+  display: flex;
+  column-gap: 3rem;
+  width: 78rem;
+  margin-right: 10vw;
+}
+
+.exceed_all_exp .exceed_all_exp__left {
+  height: 100%;
+  width: 60%;
+}
+
+.exceed_all_exp__left img {
+  margin-left: 10rem;
+  width: 80%;
+}
+
+.exceed_all_exp .exceed_all_exp__right {
+  height: 100%;
+  width: 40%;
+  margin-top: 14rem;
+}
+
+.exceed_all_exp .exceed_all_exp__right .early_access{
+  color: #71E5FF;
+  margin-bottom: 1rem;
+}
+
+.exceed_all_exp .exceed_all_exp__right .exceed_all_exp__right__header{
+  width: 60%;
+}
+
+.exceed_all_exp__right .exceed_all_exp_right__description {
+  color: #81afdd;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  
+}
+
+.exceed_all_exp .exceed_all_exp__right .early_access_link{
+  color: #f49867;
+  border-bottom: 1px solid transparent;
+}
+
+@media screen and (max-width: 900px) {
+  .exceed_all_exp {     
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .exceed_all_exp .exceed_all_exp__left {
+    width: 100%;
+  }
+  
+  .exceed_all_exp__left img {
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .exceed_all_exp .exceed_all_exp__right {
+    width: 100%;
+    margin-top: 1rem;
+  }  
+}
+
+@media screen and (max-width: 1030px) and (min-width: 700px){
+  .exceed_all_exp {     
+    flex-direction: row;
+    width: 90%;
+  }
+  
+  .exceed_all_exp .exceed_all_exp__left {
+    width: 100%
+    
+  }
+  
+  .exceed_all_exp__left img {
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .exceed_all_exp .exceed_all_exp__right {
+    width: 100%;
+    margin-top: 1rem;
+  }  
+
+  .exceed_all_exp .exceed_all_exp__right .exceed_all_exp__right__header{
+    width: 30vw;
+  }
+}
+
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {

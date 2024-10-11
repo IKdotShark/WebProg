@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Brands from "../components/Brands";
 import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
+import Woman from "../components/Woman";
 
 const Home = () => {
   return (
@@ -22,6 +23,9 @@ const Home = () => {
       <section className="section future_here">
         <FutureHere />
       </section>
+      <section className="section woman">
+        <Woman />
+      </section> {/* Исправленное закрытие тега */}
     </>
   );
 };
